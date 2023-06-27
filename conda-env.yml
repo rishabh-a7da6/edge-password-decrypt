@@ -1,0 +1,10 @@
+name: browser-decrypt
+channels: 
+  - default
+
+dependencies:
+  - python=3.8
+  - pip:
+    - pycryptodomex
+    - pywin32
+    - pycryptodome
